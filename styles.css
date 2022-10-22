@@ -429,6 +429,17 @@ img {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
+
+
+
+.skills__bar{
+  margin: 1rem 0 0 0;
+  width: 16rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
