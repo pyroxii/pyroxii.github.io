@@ -332,7 +332,7 @@ img {
 }
 
 .button__icon{
-  font-size: 1.25rem;
+  font-size: 1.00rem;
   margin-left: var(--mb-0-3);
   transition: .3s;
 }
@@ -375,9 +375,60 @@ img {
   text-align: center;
 
 }
+
+.about__buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.abt__span{
+  padding: 0px 2.5px 0px;
+}
 /*==================== SKILLS ====================*/
+.skills__container{
+  row-gap: 0;
+}
 
+.skills__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-0-25);
+  cursor: pointer;
+}
 
+.skills__icon, .skills__arrow{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__icon{
+  margin: var(--mb-0-75);
+}
+
+.skills__title{
+  font-size: var(--h3-font-size);
+}
+
+.skills__subtitle{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.skills__arrow{
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills__titles{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
 /*==================== QUALIFICATION ====================*/
 
 
