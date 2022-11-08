@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="styles.css">
@@ -456,12 +456,12 @@
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="projects">
                 <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">A collection of my work</span>
+                <span class="section__subtitle">A collection of personal and team projects</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
                         <!-- Project 1 -->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="files/Untitled design.jpg" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -471,8 +471,8 @@
                             </div>
                         </div>
                          <!-- Project 2 -->
-                         <div class="portfolio__content grid">
-                            <img src="files/MoodlyAppIcon.png" alt="" class="portfolio__img">
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="files/calendar.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Moodly</h3>
@@ -484,8 +484,8 @@
                             </div>
                         </div>
                          <!-- Project 3 -->
-                         <div class="portfolio__content grid">
-                            <img src="" alt="" class="portfolio__img">
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="files/—Pngtree—fitness pattern_921845.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Re-Do: Fitness App</h3>
@@ -493,6 +493,13 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Arrows -->
+                <div class="swiper-button-next">
+                    
+                </div>
+                <div class="swiper-button-prev"></div>
+                <!-- Pagination -->    
+                <div class="swiper-pagination"></div>
                 </div>
             </section>
 
@@ -511,7 +518,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="script.js"></script>
