@@ -580,7 +580,7 @@ img {
 }
 
 .portfolio__button:hover .button__icon{
-  transform: translateX(.25rem);
+  transform: translateX(1.5rem);
 }
 
 .swiper-button-prev::after, .swiper-button-next::after{
