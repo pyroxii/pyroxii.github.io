@@ -565,7 +565,8 @@ img {
 }
 
 .portfolio__img{
-  width: 150px;
+  height: 150px;
+  width: auto;
   border-radius: .5rem;
  
 }
